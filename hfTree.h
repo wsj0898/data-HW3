@@ -28,6 +28,7 @@ public:
 	hfTree(const T *x, const int *w, int size);
 	void getCode(hfCode result[]);
 	//void getData(hfCode result[], string *myCode);
+	//getData函数包括3个形参，第一个为结果数组result，第二个为字符编码数组，第三个为编码个数
 	void getData(hfCode result[], string mycode[], int mySize);
 	~hfTree()
 	{
@@ -128,9 +129,9 @@ void hfTree<T>::getData(hfCode result[], string mycode[], int mySize)
     {
         int codeMaxSize = result[i].code.size();
         //cout << codeMaxSize << endl;
-        //寻找数据下标
+        //s寻找数据下标
         int s = 1;
-        //指向当前编码中一个数字的下标
+        //n指向当前编码中一个数字的下标
         int n = 0;
         while (n < codeMaxSize)
         {
