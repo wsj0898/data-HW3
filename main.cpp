@@ -1,4 +1,6 @@
-//Name 吴松骏
+//main.cpp
+//Name 吴松骏 Num 5132119049
+//2014.10.24 21:43
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -151,7 +153,7 @@ int main()
 /*
     for (auto i:myNum)
         cout << i << endl;
-
+*/
 
     myTree2.getData(myResult4, myNum2, mySize4);
     outfile << "译码结果" << endl;
@@ -159,6 +161,6 @@ int main()
     {
         outfile << myResult4[i].code << "\t\t" << myResult4[i].data << endl;
     }
-*/
+
     return 0;
 }

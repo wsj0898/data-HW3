@@ -1,3 +1,6 @@
+//hfTree.h
+//Name 吴松骏 Num 5132119049
+//2014.10.24 21:43
 #ifndef _hfmanTree
 #define _hfmanTree
 
